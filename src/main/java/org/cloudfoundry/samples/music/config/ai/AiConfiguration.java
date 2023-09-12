@@ -23,12 +23,14 @@ import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.ai.vectorstore.impl.InMemoryVectorStore;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 
 /**
  *
  * @author Christian Tzolov
  */
 @Configuration
+@Profile("llm")
 public class AiConfiguration {
 
 	@Bean

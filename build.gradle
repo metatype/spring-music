@@ -9,6 +9,8 @@ plugins {
 repositories {
     mavenCentral()
     mavenLocal()
+    maven { url 'https://repo.spring.io/milestone' }
+    maven { url 'https://repo.spring.io/snapshot' }
 }
 
 ext {

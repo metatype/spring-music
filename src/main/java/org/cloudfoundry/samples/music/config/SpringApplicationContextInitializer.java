@@ -1,5 +1,6 @@
 package org.cloudfoundry.samples.music.config;
 
+import io.pivotal.cfenv.core.CfCredentials;
 import io.pivotal.cfenv.core.CfEnv;
 import io.pivotal.cfenv.core.CfService;
 import org.apache.commons.logging.Log;
@@ -79,6 +80,15 @@ public class SpringApplicationContextInitializer implements ApplicationContextIn
                             profileNameToServiceTags.values().toString() + ". " +
                             "These services are bound to the application: [" +
                             StringUtils.collectionToCommaDelimitedString(profiles) + "]");
+        }
+
+        List<CfService> llmServices = cfEnv.findServicesByTag("llm");
+        if (!llmServices.isEmpty()) {
+            logger.info("Setting service profile llm");
+            appEnvironment.addActiveProfile("llm");
+            CfCredentials llmCredentials = cfEnv.findCredentialsByTag("llm");
+            appEnvironment.getSystemProperties().put("spring.ai.openai.base-url", llmCredentials.getMap().get("api_base") + "/");
+            appEnvironment.getSystemProperties().put("spring.ai.openai.api-key", llmCredentials.getMap().get("api_key"));
         }
 
         if (profiles.size() > 0) {
