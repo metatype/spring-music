@@ -24,6 +24,16 @@
             <input type="text" class="form-control input-medium" id=genre name="genre" required ng-model="album.genre">
             <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-warning-sign': albumForm.genre.$invalid, 'glyphicon-ok': albumForm.genre.$valid}"></span>
         </div>
+        <div class="form-group has-feedback" ng-class="{'has-warning': albumForm.genre.$invalid, 'has-success': albumForm.userReview.$valid}">
+            <label for="userReview">User Review</label>
+            <input type="text" class="form-control input-medium" id=genre name="userReview" required ng-model="album.userReview">
+            <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-warning-sign': albumForm.userReview.$invalid, 'glyphicon-ok': albumForm.userReview.$valid}"></span>
+        </div>
+        <div class="form-group has-feedback" ng-class="{'has-warning': albumForm.userScore.$invalid, 'has-success': albumForm.userScore.$valid}">
+            <label for="userScore">User Score</label>
+            <input type="text" class="form-control input-medium" id=genre name="userScore" required ng-model="album.userScore">
+            <span class="glyphicon form-control-feedback" ng-class="{'glyphicon-warning-sign': albumForm.userScore.$invalid, 'glyphicon-ok': albumForm.userScore.$valid}"></span>
+        </div>
     </form>
 </div>
 <div class="modal-footer">

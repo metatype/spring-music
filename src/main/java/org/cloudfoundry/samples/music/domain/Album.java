@@ -19,17 +19,21 @@ public class Album {
     private String artist;
     private String releaseYear;
     private String genre;
+    private String userReview;
+    private String userScore;
     private int trackCount;
     private String albumId;
 
     public Album() {
     }
 
-    public Album(String title, String artist, String releaseYear, String genre) {
+    public Album(String title, String artist, String releaseYear, String genre, String userReview, String userScore) {
         this.title = title;
         this.artist = artist;
         this.releaseYear = releaseYear;
         this.genre = genre;
+        this.userReview = userReview;
+        this.userScore = userScore;
     }
 
     public String getId() {
@@ -86,5 +90,21 @@ public class Album {
 
     public void setAlbumId(String albumId) {
         this.albumId = albumId;
+    }
+
+    public String getUserReview() {
+        return userReview;
+    }
+
+    public void setUserReview(String userReview) {
+        this.userReview = userReview;
+    }
+
+    public String getUserScore() {
+        return userScore;
+    }
+
+    public void setUserScore(String userScore) {
+        this.userScore = userScore;
     }
 }

@@ -44,7 +44,7 @@ public class VectorStoreInitializer implements ApplicationListener<ApplicationRe
 	@Override
 	public void onApplicationEvent(ApplicationReadyEvent event) {
 		JsonLoader jsonLoader = new JsonLoader(this.albumsResource,
-				"artist", "title", "releaseYear", "genre");
+				"artist", "title", "releaseYear", "genre", "userReview", "userScore");
 		List<Document> documents = jsonLoader.load();
 		this.vectorStore.add(documents);
 	}
