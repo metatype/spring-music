@@ -13,19 +13,21 @@ accelerator:
     label: Attach TAS LLM Service
     description: Bind an instance of TAS LLM and enable the chat widget
   - name: vector-database
-    label: Name
+    label: Vector Database (for LLM only)
     inputType: radio
     defaultValue: InMemory
-    required: true
+    dependsOn:
+      name: use-llm
+      value: true
     choices:
-      - name: In Memory only
-        value: InMemory
-      - name: Tanzu Postgres with pgvector support
-        value: tanzu-postgres
-      - name: Greenplum Database
-        value: gpdb
-      - name: Other postgres with pgvector support
-        value: postgres
+      - value: In Memory only
+        name: InMemory
+      - value: Tanzu Postgres with pgvector support
+        name: tanzu-postgres
+      - value: Greenplum Database
+        name: gpdb
+      - value: Other postgres with pgvector support
+        name: postgres
   engine:
     include:
       ["**"]
