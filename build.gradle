@@ -27,6 +27,7 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-validation"
 
     implementation "org.springframework.experimental.ai:spring-ai-openai-spring-boot-starter:0.2.0-SNAPSHOT"
+    implementation "org.springframework.experimental.ai:spring-ai-pgvector-store:0.2.0-SNAPSHOT"
 
     // Java CfEnv
     implementation "io.pivotal.cfenv:java-cfenv-boot:${javaCfEnvVersion}"

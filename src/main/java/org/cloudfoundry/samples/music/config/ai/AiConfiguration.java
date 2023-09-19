@@ -19,11 +19,13 @@ package org.cloudfoundry.samples.music.config.ai;
 import org.springframework.ai.client.AiClient;
 import org.springframework.ai.embedding.EmbeddingClient;
 import org.springframework.ai.retriever.impl.VectorStoreRetriever;
+import org.springframework.ai.vectorstore.PgVectorStore;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.ai.vectorstore.impl.InMemoryVectorStore;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
  *
@@ -34,9 +36,18 @@ import org.springframework.context.annotation.Profile;
 public class AiConfiguration {
 
 	@Bean
-	public VectorStore vectorStore(EmbeddingClient embeddingClient) {
-		return new InMemoryVectorStore(embeddingClient);
+	public VectorStore vectorStore(JdbcTemplate jcbcTemplate, EmbeddingClient embeddingClient) {
+		return new PgVectorStore(jcbcTemplate, embeddingClient,
+				5120,
+				PgVectorStore.PgDistanceType.CosineDistance,
+				true,
+				PgVectorStore.PgIndexType.NONE);
 	}
+
+//	@Bean
+//	public VectorStore vectorStore(EmbeddingClient embeddingClient) {
+//		return new InMemoryVectorStore(embeddingClient);
+//	}
 
 	@Bean
 	public VectorStoreRetriever vectorStoreRetriever(VectorStore vectorStore) {
