@@ -19,7 +19,8 @@ package org.cloudfoundry.samples.music.config.ai;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.ai.client.AiClient;
 import org.springframework.ai.client.AiResponse;
 import org.springframework.ai.client.Generation;
@@ -45,6 +46,8 @@ public class MessageRetriever {
 
 	private AiClient aiClient;
 
+	private static final Logger logger = LoggerFactory.getLogger(MessageRetriever.class);
+	
 	public MessageRetriever(VectorStoreRetriever vectorStoreRetriever, AiClient aiClient) {
 		this.vectorStoreRetriever = vectorStoreRetriever;
 		this.aiClient = aiClient;
@@ -53,7 +56,10 @@ public class MessageRetriever {
 	public Generation retrieve(String message) {
 		List<Document> relatedDocuments = this.vectorStoreRetriever.retrieve(message);
 
+		logger.info("first doc retrieved " + relatedDocuments.get(0).toString());
+
 		Message systemMessage = getSystemMessage(relatedDocuments);
+		logger.info("system Message retrieved " + systemMessage.toString());
 		UserMessage userMessage = new UserMessage(message);
 
 		Prompt prompt = new Prompt(List.of(systemMessage, userMessage));

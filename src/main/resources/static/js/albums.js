@@ -27,7 +27,7 @@ angular.module('albums', ['ngResource', 'ui.bootstrap']).
         }
     });
 
-function AlbumsController($scope, $modal, Albums, Album, Status) {
+function AlbumsController($scope, $http, $modal, Albums, Album, Status) {
     function list() {
         $scope.albums = Albums.query();
     }
@@ -37,6 +37,8 @@ function AlbumsController($scope, $modal, Albums, Album, Status) {
     }
 
     function saveAlbum(album) {
+        $http.post('/ai/addDoc', album);
+        console.log("TEST");
         Albums.save(album,
             function () {
                 Status.success("Album saved");

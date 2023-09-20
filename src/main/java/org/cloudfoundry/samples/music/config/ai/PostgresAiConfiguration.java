@@ -29,25 +29,20 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
  *
- * @author Christian Tzolov
+ * @author Long Nguyen
  */
 @Configuration
-@Profile("llm")
-public class AiConfiguration {
+@Profile("postgres")
+public class PostgresAiConfiguration {
 
 	@Bean
-	public VectorStoreRetriever vectorStoreRetriever(VectorStore vectorStore) {
-		return new VectorStoreRetriever(vectorStore);
+	public VectorStore vectorStore(JdbcTemplate jcbcTemplate, EmbeddingClient embeddingClient) {
+		return new PgVectorStore(jcbcTemplate, embeddingClient,
+				5120,
+				PgVectorStore.PgDistanceType.CosineDistance,
+				false,
+				PgVectorStore.PgIndexType.NONE);
 	}
 
-	@Bean
-	public VectorStoreInitializer vectorStoreInitializer(VectorStore vectorStore) {
-		return new VectorStoreInitializer(vectorStore);
-	}
-
-	@Bean
-	public MessageRetriever messageRetriever(VectorStoreRetriever vectorStoreRetriever, AiClient aiClient) {
-		return new MessageRetriever(vectorStoreRetriever, aiClient);
-	}
 
 }

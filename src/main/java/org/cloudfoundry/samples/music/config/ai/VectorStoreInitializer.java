@@ -18,6 +18,9 @@ package org.cloudfoundry.samples.music.config.ai;
 
 import java.util.List;
 
+import org.cloudfoundry.samples.music.web.AIController;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.loader.impl.JsonLoader;
 import org.springframework.ai.vectorstore.VectorStore;
@@ -33,7 +36,6 @@ import org.springframework.core.io.Resource;
 public class VectorStoreInitializer implements ApplicationListener<ApplicationReadyEvent> {
 
 	private VectorStore vectorStore;
-
 	@Value("classpath:/albums.json")
 	private Resource albumsResource;
 

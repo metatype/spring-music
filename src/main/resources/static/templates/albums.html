@@ -28,8 +28,6 @@
     <div class="row multi-columns-row">
         <div ng-include src="albumsView"></div>
         <div ng-controller="InfoController">
-            {{info.profiles.join()}}
-            {{info.profiles.includes("llm")}}
             <deep-chat ng-if='info.profiles.includes("llm")' id="music-ai"   
                 introMessage="Hi I am your Spring Music assistant, ask me anything!"
                 request='{

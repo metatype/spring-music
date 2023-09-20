@@ -29,25 +29,16 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
  *
- * @author Christian Tzolov
+ * @author Long Nguyen
  */
 @Configuration
-@Profile("llm")
-public class AiConfiguration {
+@Profile("!postgres")
+public class InMemoryAiConfiguration {
 
 	@Bean
-	public VectorStoreRetriever vectorStoreRetriever(VectorStore vectorStore) {
-		return new VectorStoreRetriever(vectorStore);
+	public VectorStore vectorStore(EmbeddingClient embeddingClient) {
+		return new InMemoryVectorStore(embeddingClient);
 	}
 
-	@Bean
-	public VectorStoreInitializer vectorStoreInitializer(VectorStore vectorStore) {
-		return new VectorStoreInitializer(vectorStore);
-	}
-
-	@Bean
-	public MessageRetriever messageRetriever(VectorStoreRetriever vectorStoreRetriever, AiClient aiClient) {
-		return new MessageRetriever(vectorStoreRetriever, aiClient);
-	}
 
 }
