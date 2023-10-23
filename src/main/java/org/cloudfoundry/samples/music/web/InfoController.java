@@ -41,7 +41,8 @@ public class InfoController {
 
     @RequestMapping(value = "/appinfo")
     public ApplicationInfo info() {
-        return new ApplicationInfo(springEnvironment.getActiveProfiles(), getServiceNames());
+        String instance = System.getenv("CF_INSTANCE_INDEX");
+        return new ApplicationInfo(springEnvironment.getActiveProfiles(), getServiceNames(), instance);
     }
 
     @RequestMapping(value = "/service")
