@@ -1,264 +1,92 @@
 [
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Nirvana",
-        "title": "Nevermind",
-        "releaseYear": "1991",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Nevermind by Nirvana with a A+ rating. The Song Smells like Teen Spirit as of September 12, 2023 has 1,738,941,244 plays on Spotify.",
-        "userScore": "98"
+        "artist": "Taylor Swift",
+        "title": "Taylor Swift",
+        "releaseYear": "2006",
+        "genre": "Country",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Beach Boys",
-        "title": "Pet Sounds",
-        "releaseYear": "1966",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Pet Sounds with a C rating. The Song Wouldn't it Be nice as of September 12, 2023 has 477,551,650 plays on Spotify.",
-        "userScore": "75"
-
+        "artist": "Taylor Swift",
+        "title": "Fearless",
+        "releaseYear": "2008",
+        "genre": "Country",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Marvin Gaye",
-        "title": "What's Going On",
-        "releaseYear": "1971",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album What's Going On by Marvin Gaye with a B+ rating. The Song What's Going On as of September 12, 2023 has 253,248,802 plays on Spotify.",
-        "userScore": "85"
+        "artist": "Taylor Swift",
+        "title": "Speak Now",
+        "releaseYear": "2010",
+        "genre": "Country",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Jimi Hendrix Experience",
-        "title": "Are You Experienced?",
-        "releaseYear": "1967",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Are You Experienced? by Jimi Hendrix Experience with a B rating. The Song Purple Haze as of September 12, 2023 has 314,002,941 plays on Spotify.",
-        "userScore": "80"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "U2",
-        "title": "The Joshua Tree",
-        "releaseYear": "1987",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album The Joshua Tree by U2 with a B rating. The Song With or Without You as of September 12, 2023 has 901,206,022 plays on Spotify.",
-        "userScore": "80"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Beatles",
-        "title": "Abbey Road",
-        "releaseYear": "1969",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Abbey Road by The Beatles with a A rating. The Song Here Comes the Sun as of September 12, 2023 has 1,085,041,453 plays on Spotify.",
-        "userScore": "91"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Fleetwood Mac",
-        "title": "Rumours",
-        "releaseYear": "1977",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Rumours by Fleetwood Mac with a A rating. The Song Dreams as of September 12, 2023 has 1,341,040,003 plays on Spotify.",
-        "userScore": "92"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Elvis Presley",
-        "title": "Sun Sessions",
-        "releaseYear": "1976",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Sun Sessions by Elvis Presley with a C rating. The Song That's All Right as of September 12, 2023 has 45,452,159 plays on Spotify.",
-        "userScore": "75"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Michael Jackson",
-        "title": "Thriller",
-        "releaseYear": "1982",
+        "artist": "Taylor Swift",
+        "title": "Red",
+        "releaseYear": "2012",
         "genre": "Pop",
-        "userReview": "The Spring Music listeners rated the album Thriller by Michael Jackson with a A+ rating. The Song Billie Jean as of September 12, 2023 has 1,488,424,552 plays on Spotify.",
-        "userScore": "98"
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Rolling Stones",
-        "title": "Exile on Main Street",
-        "releaseYear": "1972",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Exile on Main Street by The Rolling Stones with a B rating. The Song Tumbling Dice as of September 12, 2023 has 75,964,408 plays on Spotify.",
-        "userScore": "85"
+        "artist": "Taylor Swift",
+        "title": "1989",
+        "releaseYear": "2014",
+        "genre": "Pop",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Bruce Springsteen",
-        "title": "Born to Run",
-        "releaseYear": "1975",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Born to Run by Bruce Springsteen with a C rating. The Song Born to Run as of September 12, 2023 has 318,312,329 plays on Spotify.",
-        "userScore": "69"
+        "artist": "Taylor Swift",
+        "title": "Reputation",
+        "releaseYear": "2017",
+        "genre": "Pop",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Clash",
-        "title": "London Calling",
-        "releaseYear": "1980",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album London Calling by The Clash with a D rating. The Song London Calling as of September 12, 2023 has 311,927,781 plays on Spotify.",
-        "userScore": "61"
+        "artist": "Taylor Swift",
+        "title": "Lover",
+        "releaseYear": "2019",
+        "genre": "Pop",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Eagles",
-        "title": "Hotel California",
-        "releaseYear": "1976",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Hotel California by The Eagles with a A+ rating. The Song Hotel California as of September 12, 2023 has 1,393,451,443 plays on Spotify.",
-        "userScore": "99"
+        "artist": "Taylor Swift",
+        "title": "Folklore",
+        "releaseYear": "2020",
+        "genre": "Pop",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Led Zeppelin",
-        "title": "Led Zeppelin",
-        "releaseYear": "1969",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Led Zeppelin by Led Zeppelin with a A rating. The Song Good Times Gone Bad as of September 12, 2023 has 267,797,413 plays on Spotify.",
-        "userScore": "93"
+        "artist": "Taylor Swift",
+        "title": "Evermore",
+        "releaseYear": "2020",
+        "genre": "Pop",
+        "userReview": "",
+        "userScore": ""
     },
     {
         "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Led Zeppelin",
-        "title": "IV",
-        "releaseYear": "1971",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album IV by Led Zeppelin with a A++ rating. The Song Stairway to Heaven as of September 12, 2023 has 866,690,562 plays on Spotify.",
-        "userScore": "100"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Police",
-        "title": "Synchronicity",
-        "releaseYear": "1983",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Synchronicity by Police with a A rating. The Song Every Breath You Take as of September 12, 2023 has 1,654,997,893 plays on Spotify.",
-        "userScore": "94"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "U2",
-        "title": "Achtung Baby",
-        "releaseYear": "1991",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Achtung Baby by U2 with a B rating. The Song One as of September 12, 2023 has 505,942,760 plays on Spotify.",
-        "userScore": "80"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Rolling Stones",
-        "title": "Let it Bleed",
-        "releaseYear": "1969",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Let it Bleed by The Rolling Stones with a B+ rating. The Song Gimme Shelter as of September 12, 2023 has 528,839,932 plays on Spotify.",
-        "userScore": "89"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Beatles",
-        "title": "Rubber Soul",
-        "releaseYear": "1965",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Rubber Soul by The Beatles with a B+ rating. The Song In My Life as of September 12, 2023 has 313,845,932 plays on Spotify.",
-        "userScore": "87"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Ramones",
-        "title": "The Ramones",
-        "releaseYear": "1976",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album The Ramones by The Ramones with a B rating. The Song Blitzkrieg Bop as of September 12, 2023 has 286,064,734 plays on Spotify.",
-        "userScore": "84"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Queen",
-        "title": "A Night At The Opera",
-        "releaseYear": "1975",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album A Night At The Opera by Queen with a A+ rating. The Song Bohemian Rhapsody as of September 12, 2023 has 2,224,217,906 plays on Spotify.",
-        "userScore": "99"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Boston",
-        "title": "Don't Look Back",
-        "releaseYear": "1978",
-        "genre": "Rock",
-        "userReview": "The Spring Music listeners rated the album Don't Look Back by Boston with a C rating. The Song Don't Look Back as of September 12, 2023 has 41,331,289 plays on Spotify.",
-        "userScore": "75"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "BB King",
-        "title": "Singin' The Blues",
-        "releaseYear": "1956",
-        "genre": "Blues",
-        "userReview": "The Spring Music listeners rated the album Singin' The Blues by BB King with a B rating. The Song Three O'Clock Blues as of September 12, 2023 has 13,076,483 plays on Spotify.",
-        "userScore": "80"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Albert King",
-        "title": "Born Under A Bad Sign",
-        "releaseYear": "1967",
-        "genre": "Blues",
-        "userReview": "The Spring Music listeners rated the album Born Under A Bad Sign by Albert King with a B rating. The Song Born Under A Bad Sign as of September 12, 2023 has 47,392,391 plays on Spotify.",
-        "userScore": "82"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Muddy Waters",
-        "title": "Folk Singer",
-        "releaseYear": "1964",
-        "genre": "Blues",
-        "userReview": "The Spring Music listeners rated the album Folk Singer by Muddy Waters with a B+ rating. The Song Good Morning Little School Girl as of September 12, 2023 has 8,608,460 plays on Spotify.",
-        "userScore": "88"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "The Fabulous Thunderbirds",
-        "title": "Rock With Me",
-        "releaseYear": "1979",
-        "genre": "Blues",
-        "userReview": "The Spring Music listeners rated the album Rock With Me by The Fabulous Thunderbirds with a C rating. The Song Scratch my Back as of September 12, 2023 has 13,898,634 plays on Spotify.",
-        "userScore": "74"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Robert Johnson",
-        "title": "King of the Delta Blues",
-        "releaseYear": "1961",
-        "genre": "Blues",
-        "userReview": "The Spring Music listeners rated the album King of the Delta Blues by Robert Johnson with a A rating. The Song Cross Road Blues as of September 12, 2023 has 25,841,036 plays on Spotify.",
-        "userScore": "92"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Stevie Ray Vaughan",
-        "title": "Texas Flood",
-        "releaseYear": "1983",
-        "genre": "Blues",
-        "userReview": "The Spring Music listeners rated the album Texas Flood by Stevie Ray Vaughan with a A+ rating. The Song Pride and Joy as of September 12, 2023 has 156,891,918 plays on Spotify.",
-        "userScore": "98"
-    },
-    {
-        "_class": "org.cloudfoundry.samples.music.domain.Album",
-        "artist": "Stevie Ray Vaughan",
-        "title": "Couldn't Stand The Weather",
-        "releaseYear": "1984",
-        "genre": "Blues",
-        "userReview": "The Spring Music listeners rated the album Couldn't Stand The Weather by Stevie Ray Vaughan with a A rating. The Song Little Wing as of September 12, 2023 has 71,303,460 plays on Spotify.",
-        "userScore": "95"
+        "artist": "Taylor Swift",
+        "title": "Midnights",
+        "releaseYear": "2022",
+        "genre": "Pop",
+        "userReview": "",
+        "userScore": ""
     }
 ]
