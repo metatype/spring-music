@@ -22,7 +22,7 @@ import org.cloudfoundry.samples.music.web.AIController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ai.document.Document;
-import org.springframework.ai.loader.impl.JsonLoader;
+import org.springframework.ai.reader.JsonReader;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
@@ -45,9 +45,9 @@ public class VectorStoreInitializer implements ApplicationListener<ApplicationRe
 
 	@Override
 	public void onApplicationEvent(ApplicationReadyEvent event) {
-		JsonLoader jsonLoader = new JsonLoader(this.albumsResource,
+		JsonReader jsonLoader = new JsonReader(this.albumsResource,
 				"artist", "title", "releaseYear", "genre", "userReview", "userScore");
-		List<Document> documents = jsonLoader.load();
+		List<Document> documents = jsonLoader.get();
 		this.vectorStore.add(documents);
 	}
 

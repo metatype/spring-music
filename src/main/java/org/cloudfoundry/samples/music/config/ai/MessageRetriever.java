@@ -29,7 +29,7 @@ import org.springframework.ai.prompt.Prompt;
 import org.springframework.ai.prompt.SystemPromptTemplate;
 import org.springframework.ai.prompt.messages.Message;
 import org.springframework.ai.prompt.messages.UserMessage;
-import org.springframework.ai.retriever.impl.VectorStoreRetriever;
+import org.springframework.ai.retriever.VectorStoreRetriever;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 

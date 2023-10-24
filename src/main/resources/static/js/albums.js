@@ -38,7 +38,6 @@ function AlbumsController($scope, $http, $modal, Albums, Album, Status) {
 
     function saveAlbum(album) {
         $http.post('/ai/addDoc', album);
-        console.log("TEST");
         Albums.save(album,
             function () {
                 Status.success("Album saved");
