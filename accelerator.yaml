@@ -17,9 +17,6 @@ accelerator:
     label: Vector Database (for LLM only)
     inputType: radio
     defaultValue: InMemory
-    dependsOn:
-      name: useLlm
-      value: true
     required: true
     choices:
       - text: In Memory only
