@@ -7,27 +7,27 @@ accelerator:
   - java 
   - llm 
   options:
-  - name: use-llm
+  - name: useLlm
     dataType: boolean
     inputType: checkbox
     label: Attach TAS LLM Service
     description: Bind an instance of TAS LLM and enable the chat widget
-  - name: vector-database
+  - name: vectorDatabase
     label: Vector Database (for LLM only)
     inputType: radio
     defaultValue: InMemory
     dependsOn:
-      name: use-llm
+      name: useLlm
       value: true
     choices:
-      - value: In Memory only
-        name: InMemory
-      - value: Tanzu Postgres with pgvector support
-        name: tanzu-postgres
-      - value: Greenplum Database
-        name: gpdb
-      - value: Other postgres with pgvector support
-        name: postgres
+      - text: In Memory only
+        value: InMemory
+      - text: Tanzu Postgres with pgvector support
+        value: tanzu-postgres
+      - text: Greenplum Database
+        value: gpdb
+      - text: Other postgres with pgvector support
+        value: postgres
   engine:
     include:
       ["**"]
@@ -36,6 +36,6 @@ accelerator:
     let:
     - name: usepgVector
       expression:
-        "#vector-database != 'InMemory'"
+        "#vectorDatabase != 'InMemory'"
 
 
