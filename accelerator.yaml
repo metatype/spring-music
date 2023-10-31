@@ -12,6 +12,7 @@ accelerator:
     inputType: checkbox
     label: Attach TAS LLM Service
     description: Bind an instance of TAS LLM and enable the chat widget
+    required: false
   - name: vectorDatabase
     label: Vector Database (for LLM only)
     inputType: radio
@@ -19,6 +20,7 @@ accelerator:
     dependsOn:
       name: useLlm
       value: true
+    required: true
     choices:
       - text: In Memory only
         value: InMemory
