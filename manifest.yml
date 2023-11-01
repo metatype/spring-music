@@ -5,6 +5,9 @@ applications:
   random-route: true
   path: build/libs/spring-music-1.0.jar
   buildpack: java_buildpack_offline
+  metadata:
+    labels:
+      app.kubernetes.io/part-of: spring-music 
   env:
     JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
     SPRING_PROFILES_ACTIVE: http2
