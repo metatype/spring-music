@@ -34,7 +34,7 @@ accelerator:
     include:
       ["**"]
     exclude:
-      ["accelerator.yaml"]
+      ["accelerator.yaml", "accelerator-catalog-entity.yaml"]
     let:
     - name: usepgVector
       expression:
