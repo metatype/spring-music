@@ -88,5 +88,455 @@
         "genre": "Pop",
         "userReview": "",
         "userScore": ""
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Kendrick Lamar",
+      "title": "good kid, m.A.A.d city",
+      "releaseYear": "2012",
+      "genre": "Hip-Hop",
+      "userReview": "A masterpiece of storytelling.",
+      "userScore": "9.5"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Taylor Swift",
+      "title": "1989",
+      "releaseYear": "2014",
+      "genre": "Pop",
+      "userReview": "Catchy and vibrant pop tunes.",
+      "userScore": "8.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Daft Punk",
+      "title": "Random Access Memories",
+      "releaseYear": "2013",
+      "genre": "Electronic",
+      "userReview": "Revival of classic electronic music.",
+      "userScore": "9.2"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Lorde",
+      "title": "Melodrama",
+      "releaseYear": "2017",
+      "genre": "Pop",
+      "userReview": "Emotionally powerful and unique.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Arctic Monkeys",
+      "title": "AM",
+      "releaseYear": "2013",
+      "genre": "Indie Rock",
+      "userReview": "Energetic and catchy.",
+      "userScore": "8.8"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Beyoncé",
+      "title": "Lemonade",
+      "releaseYear": "2016",
+      "genre": "R&B",
+      "userReview": "Visceral and groundbreaking.",
+      "userScore": "9.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Drake",
+      "title": "Take Care",
+      "releaseYear": "2011",
+      "genre": "Hip-Hop",
+      "userReview": "Emotional and introspective.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Vampire Weekend",
+      "title": "Modern Vampires of the City",
+      "releaseYear": "2013",
+      "genre": "Indie Rock",
+      "userReview": "Lyrically rich and diverse.",
+      "userScore": "9.1"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Adele",
+      "title": "25",
+      "releaseYear": "2015",
+      "genre": "Pop",
+      "userReview": "Soulful and powerful vocals.",
+      "userScore": "9.3"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Frank Ocean",
+      "title": "Blonde",
+      "releaseYear": "2016",
+      "genre": "R&B",
+      "userReview": "Experimental and deeply personal.",
+      "userScore": "9.6"
+    },  
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Kanye West",
+      "title": "My Beautiful Dark Twisted Fantasy",
+      "releaseYear": "2010",
+      "genre": "Hip-Hop",
+      "userReview": "Innovative and grandiose production.",
+      "userScore": "9.8"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Billie Eilish",
+      "title": "When We All Fall Asleep, Where Do We Go?",
+      "releaseYear": "2019",
+      "genre": "Pop",
+      "userReview": "Eerie and genre-defying.",
+      "userScore": "9.4"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "The Weeknd",
+      "title": "After Hours",
+      "releaseYear": "2020",
+      "genre": "R&B",
+      "userReview": "Sensual and atmospheric.",
+      "userScore": "9.2"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Childish Gambino",
+      "title": "Because the Internet",
+      "releaseYear": "2013",
+      "genre": "Hip-Hop",
+      "userReview": "Conceptually ambitious.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Fleet Foxes",
+      "title": "Helplessness Blues",
+      "releaseYear": "2011",
+      "genre": "Folk",
+      "userReview": "Harmonically rich and introspective.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Mumford & Sons",
+      "title": "Babel",
+      "releaseYear": "2012",
+      "genre": "Folk",
+      "userReview": "Heartfelt and anthemic.",
+      "userScore": "8.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Bon Iver",
+      "title": "Bon Iver, Bon Iver",
+      "releaseYear": "2011",
+      "genre": "Indie Folk",
+      "userReview": "Emotionally resonant and atmospheric.",
+      "userScore": "9.1"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "SZA",
+      "title": "Ctrl",
+      "releaseYear": "2017",
+      "genre": "R&B",
+      "userReview": "Confident and soul-baring.",
+      "userScore": "9.3"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Lana Del Rey",
+      "title": "Born to Die",
+      "releaseYear": "2012",
+      "genre": "Pop",
+      "userReview": "Lush and cinematic.",
+      "userScore": "8.8"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Hozier",
+      "title": "Hozier",
+      "releaseYear": "2014",
+      "genre": "Indie Folk",
+      "userReview": "Soulful and passionate.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Ed Sheeran",
+      "title": "÷ (Divide)",
+      "releaseYear": "2017",
+      "genre": "Pop",
+      "userReview": "Catchy and versatile.",
+      "userScore": "8.6"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Imagine Dragons",
+      "title": "Night Visions",
+      "releaseYear": "2012",
+      "genre": "Alternative Rock",
+      "userReview": "Energetic and anthemic.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Coldplay",
+      "title": "Mylo Xyloto",
+      "releaseYear": "2011",
+      "genre": "Alternative Rock",
+      "userReview": "Colorful and stadium-ready.",
+      "userScore": "8.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "The Lumineers",
+      "title": "The Lumineers",
+      "releaseYear": "2012",
+      "genre": "Folk Rock",
+      "userReview": "Rootsy and heartfelt.",
+      "userScore": "8.8"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Sam Smith",
+      "title": "In the Lonely Hour",
+      "releaseYear": "2014",
+      "genre": "Pop",
+      "userReview": "Soulful and emotional.",
+      "userScore": "9.1"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Mumford & Sons",
+      "title": "Wilder Mind",
+      "releaseYear": "2015",
+      "genre": "Folk Rock",
+      "userReview": "A departure with a compelling edge.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Bruno Mars",
+      "title": "24K Magic",
+      "releaseYear": "2016",
+      "genre": "Pop",
+      "userReview": "Funky and retro.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Rihanna",
+      "title": "Anti",
+      "releaseYear": "2016",
+      "genre": "R&B",
+      "userReview": "Diverse and experimental.",
+      "userScore": "9.2"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Florence + The Machine",
+      "title": "Ceremonials",
+      "releaseYear": "2011",
+      "genre": "Indie Rock",
+      "userReview": "Epic and anthemic.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Twenty One Pilots",
+      "title": "Blurryface",
+      "releaseYear": "2015",
+      "genre": "Alternative Rock",
+      "userReview": "Energetic and introspective.",
+      "userScore": "8.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Ed Sheeran",
+      "title": "÷ (Divide)",
+      "releaseYear": "2017",
+      "genre": "Pop",
+      "userReview": "Catchy and versatile.",
+      "userScore": "8.6"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Imagine Dragons",
+      "title": "Night Visions",
+      "releaseYear": "2012",
+      "genre": "Alternative Rock",
+      "userReview": "Energetic and anthemic.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Coldplay",
+      "title": "Mylo Xyloto",
+      "releaseYear": "2011",
+      "genre": "Alternative Rock",
+      "userReview": "Colorful and stadium-ready.",
+      "userScore": "8.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "The Lumineers",
+      "title": "The Lumineers",
+      "releaseYear": "2012",
+      "genre": "Folk Rock",
+      "userReview": "Rootsy and heartfelt.",
+      "userScore": "8.8"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Sam Smith",
+      "title": "In the Lonely Hour",
+      "releaseYear": "2014",
+      "genre": "Pop",
+      "userReview": "Soulful and emotional.",
+      "userScore": "9.1"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Mumford & Sons",
+      "title": "Wilder Mind",
+      "releaseYear": "2015",
+      "genre": "Folk Rock",
+      "userReview": "A departure with a compelling edge.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Bruno Mars",
+      "title": "24K Magic",
+      "releaseYear": "2016",
+      "genre": "Pop",
+      "userReview": "Funky and retro.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Rihanna",
+      "title": "Anti",
+      "releaseYear": "2016",
+      "genre": "R&B",
+      "userReview": "Diverse and experimental.",
+      "userScore": "9.2"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Florence + The Machine",
+      "title": "Ceremonials",
+      "releaseYear": "2011",
+      "genre": "Indie Rock",
+      "userReview": "Epic and anthemic.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Twenty One Pilots",
+      "title": "Blurryface",
+      "releaseYear": "2015",
+      "genre": "Alternative Rock",
+      "userReview": "Energetic and introspective.",
+      "userScore": "8.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "The Black Keys",
+      "title": "El Camino",
+      "releaseYear": "2011",
+      "genre": "Rock",
+      "userReview": "Raw and infectious.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Ariana Grande",
+      "title": "Sweetener",
+      "releaseYear": "2018",
+      "genre": "Pop",
+      "userReview": "Evolving and empowering.",
+      "userScore": "9.3"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "The xx",
+      "title": "I See You",
+      "releaseYear": "2017",
+      "genre": "Indie Pop",
+      "userReview": "Intimate and atmospheric.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Arcade Fire",
+      "title": "Reflektor",
+      "releaseYear": "2013",
+      "genre": "Indie Rock",
+      "userReview": "Bold and danceable.",
+      "userScore": "8.8"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "St. Vincent",
+      "title": "St. Vincent",
+      "releaseYear": "2014",
+      "genre": "Art Pop",
+      "userReview": "Innovative and bold.",
+      "userScore": "9.1"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Halsey",
+      "title": "Badlands",
+      "releaseYear": "2015",
+      "genre": "Alternative Pop",
+      "userReview": "Dark and atmospheric.",
+      "userScore": "8.7"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Kacey Musgraves",
+      "title": "Golden Hour",
+      "releaseYear": "2018",
+      "genre": "Country Pop",
+      "userReview": "Dreamy and heartfelt.",
+      "userScore": "9.4"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Lorde",
+      "title": "Pure Heroine",
+      "releaseYear": "2013",
+      "genre": "Pop",
+      "userReview": "A fresh voice in pop.",
+      "userScore": "9.0"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "Vampire Weekend",
+      "title": "Father of the Bride",
+      "releaseYear": "2019",
+      "genre": "Indie Pop",
+      "userReview": "Eclectic and breezy.",
+      "userScore": "8.9"
+    },
+    {
+      "_class": "org.cloudfoundry.samples.music.domain.Album",
+      "artist": "The National",
+      "title": "Trouble Will Find Me",
+      "releaseYear": "2013",
+      "genre": "Indie Rock",
+      "userReview": "Melancholic and profound.",
+      "userScore": "9.2"
     }
 ]
